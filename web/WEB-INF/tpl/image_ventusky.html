@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <style>
+            body{
+                font-size: 40px;
+                font-family: monospace;
+            }
+            .weather-image {
+                width: 55%;
+                border-radius: 10px;
+                margin-bottom: 10px;
+                margin-top: 3%;
+                height: 300px;
+                margin: 0 auto;
+            }
+            .block {
+                text-align: center;
+                border: solid 1.5px;
+                width: "${w}";
+                height: 580px;
+                border-radius: 10px;
+            }
+            .data{
+                margin-top: 3%;
+            }
+            
+        </style>
+        <div class = "block">
+            <div style="margin-top: 5%"><span>City: </span><span>${s}</span></div>
+            <img src = "img/${data.main}.png" class = "weather-image">
+            <div class = "data">
+                <div><span>Description: </span><span>${data.desc}</span></div>
+                <div><span>Temperature: </span><span>${data.temp} &deg;</span></div>
+
+            </div>
+        </div>
+    </body>
+</html>

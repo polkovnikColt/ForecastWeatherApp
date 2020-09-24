@@ -1,0 +1,74 @@
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/style.css">
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" crossorigin="anonymous"></script>
+    </head>
+
+    <body>
+
+        <div id="app">
+            <div id="header">${s}</div>
+            <div id="content">
+
+                <div class="one-day">
+                    <div id="col1">
+                        <div id="header"><span class = "0"></span></div>
+                        <div id="text-content">
+                            <div class="temp">Min/max: <span>${data.d_1} C&deg;</span> </div>
+                            <div class="desc"><span></span> </div>
+                        </div>
+                    </div>
+                    <div id="col2"><img src="https://ssl.gstatic.com/onebox/weather/48/partly_cloudy.png" alt="char" class="weather-image"></div>
+                </div>
+                <div class="one-day">
+                    <div id="col1">
+                        <div id="header"><span class = "1"></span></div>
+                        <div id="text-content">
+                            <div class="temp">Min/max: <span>${data.d_2} C&deg;</span> </div>
+                            <div class="desc"><span></span> </div>
+                        </div>
+                    </div>
+                    <div id="col2"><img src="https://ssl.gstatic.com/onebox/weather/48/partly_cloudy.png" alt="char" class="weather-image"></div>
+                </div>
+                <div class="one-day">
+                    <div id="col1">
+                        <div id="header"><span class = "2"></span></div>
+                        <div id="text-content">
+                            <div class="temp">Min/max: <span>${data.d_3} C&deg;</span> </div>
+                            <div class="desc"><span></span> </div>
+                        </div>
+                    </div>
+                    <div id="col2"><img src="https://ssl.gstatic.com/onebox/weather/48/partly_cloudy.png" alt="char" class="weather-image"></div>
+                </div>
+                <div class="one-day">
+                    <div id="col1">
+                        <div id="header"><span class = "3"></span></div>
+                        <div id="text-content">
+                            <div class="temp">Min/max: <span>${data.d_4} C&deg;</span> </div>
+                            <div class="desc"><span></span> </div>
+                        </div>
+                    </div>
+                    <div id="col2"><img src="https://ssl.gstatic.com/onebox/weather/48/partly_cloudy.png" alt="char" class="weather-image"></div>
+                </div>
+                <div class="one-day">
+                    <div id="col1">
+                        <div id="header"><span class = "4"></span></div>
+                        <div id="text-content">
+                            <div class="temp">Min/max: <span>${data.d_5} C&deg;</span> </div>
+                            <div class="desc"><span></span> </div>
+                        </div>
+                    </div>
+                    <div id="col2"><img src="https://ssl.gstatic.com/onebox/weather/48/partly_cloudy.png" alt="char" class="weather-image"></div>
+                </div>
+
+                <div id="footer">
+                    <div class="footer"><span class="watermark">(ventusky) </span><span class="time"></span></div>
+                </div>
+            </div>
+        </div>
+    </body>
+    <script src="js/content.js"></script></html>

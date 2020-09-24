@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Forecast for digital picture frame</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            body {
+                color: #ffffff;
+                background-color: #0074b8;
+                font-family: sans-serif;
+            }
+            img{
+                border-radius: 13px;
+                
+            }
+            div{
+                width: 100%;
+            }
+            .m-auto{
+                width: auto;
+                margin: 0 auto;
+            }
+        </style>
+    </head>
+    <body>
+        
+        <div>
+        <div class="m-auto"><img width="${param.w}" height="${param.h}" src="image?p=${param.p}&s=${param.s}&w=${param.w}&h=${param.h}" />
+        </div></div>
+    </body>
+</html>

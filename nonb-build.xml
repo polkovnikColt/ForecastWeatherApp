@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="service-dpf-forecast" default="start" basedir=".">
+    <import file="${basedir}/../web-application-build.xml"/>
+
+    <target name="-pre-compile" >
+    	<ant dir="${basedir}" antfile="build.xml" inheritall="false" target="-pre-compile"/>
+    </target>	
+</project>
+    
